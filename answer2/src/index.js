@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-const store = createDocStore({ todos: [] });
 
 ReactDOM.render(
-  <Provider store={store}>
+  <React.StrictMode>
     <App />
-  </Provider>
-       
-  ,
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
