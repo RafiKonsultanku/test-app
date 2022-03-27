@@ -1,5 +1,5 @@
 body {
-  background-color: #3f937b;
+  background-color: #e9e9e9;
 }
 .App {
   text-align: center;
@@ -15,7 +15,7 @@ body {
   width: 350px;
 }
 button {
-  background-color: #61b9a0 !important;
+  background-color: #2264b1 !important;
   color: white !important;
 }
 .btn:focus,
